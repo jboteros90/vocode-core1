@@ -6,3 +6,6 @@ RUN apt-get update \
         && apt-get clean
 
 RUN pip install vocode
+
+poetry update
+
