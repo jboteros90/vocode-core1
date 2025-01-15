@@ -8,6 +8,3 @@ RUN apt-get update \
 RUN pip install vocode
 
 poetry update
-
-CMD ["python", "main.py", "--port=8000"] 
-
